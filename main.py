@@ -1,19 +1,22 @@
 #!/usr/bin/env python3
+import time
 
-def print_hi(name):
+
+def bonjour(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Bonjour, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 
-def print_compter(num):
+def print_compter(num, secs=0.25):
     print(f'Je sais compter jusqu\'a {num}:', end=' ')
     for i in range(num):
-        print(i + 1, end=' ')
+        time.sleep(secs)
+        print(i + 1, end=' ',flush=True)
     print()
 
 
 def main():
-    print_hi('Tristan L. alias TL')
+    bonjour('Tristan L. alias TL')
     print_compter(5)
     print_compter(10)
 

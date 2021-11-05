@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
-from main import print_hi
+from main import bonjour
 from main import print_compter
 
 
 def main():
-    print_hi('Tristan L.')
+    bonjour('Tristan L.')
     print_compter(3)
 
 

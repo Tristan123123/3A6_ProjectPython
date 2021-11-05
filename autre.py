@@ -4,8 +4,8 @@ import main as bonjour
 
 
 def main():
-    bonjour.print_hi('Tristan L.')
-    bonjour.print_compter(8)
+    bonjour.bonjour('Tristan L.')
+    bonjour.print_compter(8, 0.5)
 
 
 if __name__ == '__main__':
