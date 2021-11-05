@@ -13,7 +13,7 @@ def print_compter(num):
 
 
 def main():
-    print_hi('Tristan L.')
+    print_hi('Tristan L. alias TL')
     print_compter(5)
     print_compter(10)
 
